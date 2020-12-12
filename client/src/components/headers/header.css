@@ -1,0 +1,145 @@
+
+
+a {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ul li,
+ol li {
+    margin-bottom: 0 !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.header__top {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    z-index: 99;
+    font-size: 12px;
+}
+
+.phone-support,
+.email-support {
+    float: left;
+    white-space: nowrap;
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.phone-support {
+    margin-right: 20px;
+}
+
+.phone-support img,
+.email-support img {
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: #1070dc;
+}
+
+.phone-support a {
+    font-size: 16px;
+}
+
+.navUser {
+    height: 40px;
+}
+
+.navUser__item {
+    padding: 0 10px;
+}
+
+.header--center {
+    padding: 40px 0;
+}
+
+.searchpro {
+    z-index: 5;
+    position: relative;
+    width: 100%;
+    float: left;
+    color: #999;
+    display: inline-block;
+}
+
+.input-search {
+    border: #1070dc solid 3px;
+    border-radius: 25px;
+    width: 100%;
+    background: #fff;
+    height: 48px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cart {
+    font-size: 38px;
+    line-height: 38px;
+    position: relative;
+    color: #333;
+}
+
+.cart__icon {
+    width: 35px;
+    height: 38px;
+    vertical-align: middle;
+}
+
+.cart__count {
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: -5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    background: #1070dc;
+    right: -10px;
+    overflow: hidden;
+}
+
+.header__bottom {
+    background: #1070dc;
+}
+
+.navPages__link {
+    padding: 0 25px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    border-radius: 0;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.navPages__link:hover {
+    opacity: 1;
+    color: #fff;
+}

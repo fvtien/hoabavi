@@ -1,0 +1,112 @@
+.panel {
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.panel__header {
+    background: #fff;
+    margin: 0;
+    padding: 1.5rem 2.03846rem 0;
+}
+
+.panel__title {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.panel__body {
+    margin: 0;
+    background: #fff;
+    padding: 1rem 2.03846rem 1.5rem;
+}
+
+.form {
+    margin-left: 25%;
+}
+
+.form__field {
+    display: block;
+    margin: 0 0 2.03846rem;
+    max-width: none;
+}
+
+.form__label {
+    color: #666;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: .53846rem;
+}
+
+.form__input {
+    appearance: none;
+    background-color: #fff;
+    border-color: #dfdfdf;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    color: #454545;
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    height: 3rem;
+    margin: 0;
+    padding: .75rem 1rem;
+    transition: border-color .1s ease-out;
+    width: 100%;
+}
+
+.form__actions {
+    margin: 0 auto;
+    max-width: 92.30769rem;
+    width: 100%;
+    display: block;
+}
+
+.btn {
+    line-height: 1rem;
+    transition: all .15s ease;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    border-color: #dfdfdf;
+    color: #454545;
+    font-size: 1rem;
+    padding: .92308rem 2.26923rem;
+    border-radius: 4px;
+    outline: 0;
+    vertical-align: middle;
+}
+
+.btn--primary {
+    background-color: #454545;
+    border-color: #454545;
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background-color: #666;
+    border-color: #666;
+    color: #fff;
+}
+
+.form__actions a {
+    float: right;
+    line-height: 47.3px;
+}
